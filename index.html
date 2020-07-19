@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to our peeoner bank</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,500&display=swap"
+        rel="stylesheet">
+    <!-- slick start -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- slick end -->
+    <!-- bootstarp start -->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- bootstarp end -->
+    <!-- main css start -->
+    <link rel="stylesheet" href="style.css">
+    <!-- main css end -->
+    <!--responsive start-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--responsive end-->
+</head>
+
+<body>
+<div class="container">
+    <div id="login-aria">
+        <h2 class="text-center">welcome to our peeoner bank</h2>
+        <div id="submit-area">
+            <h4>login</h4>
+            <input type="text" placeholder="Enter Email" class="form-control">
+            <br>
+            <input type="password" placeholder="Enter password" class="form-control">
+            <br>
+            <button id="login" class="btn btn-success">enter</button>
+        </div>
+    </div>
+</div>
+<!-- trensection area start-->
+<div id="trensiction-area">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-4">
+            <div class="diposit">
+                <h5>diposit</h5>
+                <h3>$ <span id="curentDeposite">00</span></h3>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="withdrow">
+                <h5>withdrow</h5>
+                <h3>$ <span id="currentWithdrow">00</span> </h3>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="balance">
+                <h5>balance</h5>
+                <h3>$ <span id="curentBalece">00</span></h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="diposit-clear">
+                <h4>Deposit</h4>
+                <input id="depositAmount" type="text" class="form-control" placeholder="$ amount you want to deposit">
+                <br>
+                <button id ="addDiposit" class="btn btn-success">Deposit</button>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="withdrow-clear">
+                <h4>Withdrow</h4>
+                <input id="withdrowAmount" type="text" class="form-control" placeholder="$ amount you want to deposit">
+                <br>
+                <button id="addWithdrow" class="btn btn-success">Withdrow</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- trensection area end-->
+
+
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
